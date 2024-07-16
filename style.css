@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+  }
+  body{
+    background-color: rgba(18, 16, 16, 0.974);
+    /* background-color: black; */
+    color: white;
+  }
+  .navbar{
+    text-align: center;
+  }
+
+.form-container{
+    display: flex;
+    margin: 30px 0px 40px 450px;
+    font-size: 20px;
+
+  }
+  span,#search-btn{
+    margin-right: 10px;
+    margin-left:10px ;
+  }
+  #btn{
+    height: 30px;
+    width: 80px;
+  }
+  #current-image{
+    margin-left: 200px;
+    margin-top: 25px;
+    height: 35rem;
+    width: 52rem;
+  }
+  #current-detail{
+    width: 90%;
+    margin-left: 67px;
+    margin-right: 100px;
+  }
+  h2{
+    margin-bottom: 0.5rem;
+  }

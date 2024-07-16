@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NASA Picture of the day!</title>
+</head>
+<body onload="getCurrentImageOfTheDay()">
+    <div class = "navbar">
+        <h1 >NASA PICTURE OF THE DAY</h1>
+    </div>
+    <form action="" id="search-form">
+        <div class="form-container">
+            <!-- date input box -->
+            <label for="search-input"><span>Select a date</span></label>
+            <input type="date" name="search-input" id="search-input">
+            <!-- search button -->
+            <div id="search-btn">
+                <label for="btn"></label>
+                <button type="submit" name="btn" id="btn">Search</button>
+            </div>
+        </div>
+        <!-- Displaying image for the date selected -->
+        <div id="current-image-container">
+            <div id="current-detail">
+
+            </div>
+            <img id="current-image" placeholder="picture loading...">
+                
+            </img>
+        </div>
+        <div id="search-history-container">
+
+        </div>
+
+        <!-- History of the searched images -->
+        <div>
+            <ul id="search-history">
+
+            </ul>
+        </div>
+    </form>
+    <!-- <script src="index.js"></script> -->
+    <script src="index.js"></script>
+</body>
+</html>
